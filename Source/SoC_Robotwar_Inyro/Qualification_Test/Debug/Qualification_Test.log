@@ -1,0 +1,42 @@
+﻿  PictureControlDraw.cpp
+  Generating Code...
+  Compiling...
+  Qualification_TestDlg.cpp
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\qualification_test\qualification_testdlg.cpp(399): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\qualification_test\qualification_testdlg.cpp(400): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\qualification_test\qualification_testdlg.cpp(401): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\qualification_test\qualification_testdlg.cpp(402): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\qualification_test\qualification_testdlg.cpp(403): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\qualification_test\qualification_testdlg.cpp(404): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\qualification_test\qualification_testdlg.cpp(405): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+  Qualification_Test.cpp
+  Tracking.cpp
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\tracking\tracking.cpp(218): warning C4101: 'object_area': unreferenced local variable
+  Recognition.cpp
+  Labeling.c
+  ImagePixel.c
+  Draw.c
+  Color.c
+  ImageManagement.c
+  Bitmap.c
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\common\bitmap.c(64): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\common\bitmap.c(164): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\common\bitmap.c(136): warning C4101: 'tmp': unreferenced local variable
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\common\bitmap.c(135): warning C4101: 'rwsize': unreferenced local variable
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\common\bitmap.c(211): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\common\bitmap.c(253): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  VideoProcessing.cpp
+  Generating Code...
+  Qualification_Test.vcxproj -> C:\cygwin\home\KimDaeRyong\SVN\Source\SoC_Robotwar_Inyro\Debug\Qualification_Test.exe
+  Qualification_Test.vcxproj -> C:\cygwin\home\KimDaeRyong\SVN\Source\SoC_Robotwar_Inyro\Debug\Qualification_Test.pdb (Partial PDB)

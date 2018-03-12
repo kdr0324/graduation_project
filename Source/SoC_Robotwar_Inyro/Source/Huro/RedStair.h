@@ -1,0 +1,40 @@
+#ifndef _RED_STAIR_H_
+#define _RED_STAIR_H_
+
+#include "../Amazon/Config.h"
+
+//#define RED_STAIR_END							0x00000000
+//#define RED_STAIR_WALK							0x00000001
+//#define RED_STAIR_SIDE_LEFT						0x00000002
+//#define RED_STAIR_SIDE_RIGHT					0x00000004
+//#define RED_STAIR_RUN_5							0x00000008
+//#define RED_STAIR_RUN_3							0x00000010
+//#define RED_STAIR_DOUBLE_BELL_BELL				0x00000020
+//#define RED_STAIR_SINGLE_BELL_BELL				0x00000040
+//#define RED_STAIR_SIDE_50						0x00000080
+//#define RED_STAIR_RIGHT_MOTION					0x00000100
+//#define RED_STAIR_TURN_5						0x00000200
+//#define RED_STAIR_TURN_15						0x00000400
+
+
+#define RED_STAIR_END							0x00000000
+#define RED_STAIR_RIGHT_MOTION					0x00000001
+#define RED_STAIR_SIDE_MOVE_10					0x00000002
+#define RED_STAIR_SIDE_MOVE_30					0x00000004
+#define RED_STAIR_SIDE_MOVE_70					0x00000008
+#define RED_STAIR_WALK							0x00000010
+
+#define RED_STAIR_ALIGN_END						0x00000000
+#define RED_STAIR_ALIGN_LEFT_MOTION				0x00000001
+#define RED_STAIR_ALIGN_TURN_30					0x00000002
+#define RED_STAIR_ALIGN_TURN_15					0x00000004
+#define RED_STAIR_ALIGN_WALK					0x00000008
+#define RED_STAIR_ALIGN_HALF_WALK				0x00000010
+#define RED_STAIR_ALIGN_RUN						0x00000020
+#define RED_STAIR_ALIGN_END_FLAG				0x00000040
+
+int RedStair(FILE *fp, const char *name);
+int RedStair2(FILE *fp, const char *name);
+int RedStairAlign(FILE *fp, const char *name);
+
+#endif // _RED_STAIR_H_

@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Amazon">
+      <UniqueIdentifier>{7bb78ada-7020-49da-b6e1-521fda4c57f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Huro">
+      <UniqueIdentifier>{a80ce1ca-0e7a-4874-b984-cea4d29774c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC Dialog Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{959d0d7a-21a7-419a-8024-852c22ac7a5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Amazon\Config.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\Draw.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\ImageConvert.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\ImagePixel.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\Labeling.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\Number.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\uart_api.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Huro\AlignPosition.h">
+      <Filter>Huro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Huro\Barricade.h">
+      <Filter>Huro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Huro\Golf.h">
+      <Filter>Huro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Huro\Hurdle.h">
+      <Filter>Huro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Huro\Huro.h">
+      <Filter>Huro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Huro\HuroComm.h">
+      <Filter>Huro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Huro\RedStair.h">
+      <Filter>Huro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Huro\Stair.h">
+      <Filter>Huro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Huro\YellowHole.h">
+      <Filter>Huro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Common\Bitmap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Common\Global.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Common\ImageManagement.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Common\Point.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>MFC Dialog Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Huro_Competition.h">
+      <Filter>MFC Dialog Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Huro_CompetitionDlg.h">
+      <Filter>MFC Dialog Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>MFC Dialog Source</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>MFC Dialog Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Huro\HuroMissonConfig.h">
+      <Filter>Huro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Huro\Mine.h">
+      <Filter>Huro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\Memory.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\graphic_api.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\Line.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\LUT.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\amazon2_timer_api.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Huro_Competition.cpp">
+      <Filter>MFC Dialog Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Huro_CompetitionDlg.cpp">
+      <Filter>MFC Dialog Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>MFC Dialog Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\Draw.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\ImageConvert.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\ImagePixel.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\Labeling.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\Number.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\uart_api.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Huro\AlignPosition.c">
+      <Filter>Huro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Huro\Barricade.c">
+      <Filter>Huro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Huro\Golf.c">
+      <Filter>Huro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Huro\Hurdle.c">
+      <Filter>Huro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Huro\Huro.c">
+      <Filter>Huro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Huro\HuroComm.c">
+      <Filter>Huro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Huro\RedStair.c">
+      <Filter>Huro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Huro\Stair.c">
+      <Filter>Huro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Huro\YellowHole.c">
+      <Filter>Huro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Common\Bitmap.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Common\ImageManagement.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Huro\Mine.c">
+      <Filter>Huro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\Memory.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\graphic_api.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\Line.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\LUT.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\amazon2_timer_api.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Huro_Competition.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Huro_Competition.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Huro_Competition.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

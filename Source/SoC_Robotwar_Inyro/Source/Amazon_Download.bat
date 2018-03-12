@@ -1,0 +1,1 @@
+"RemoteManCLI.exe" -target usb -rfw /mnt/f0/SoC_Robotwar_Inyro SoC_Robotwar_Inyro -run 0 -q

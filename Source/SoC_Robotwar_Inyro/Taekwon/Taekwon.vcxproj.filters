@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Taekwon">
+      <UniqueIdentifier>{a3f7bd0a-457e-4691-af14-8b33816b4694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{dbef29c7-ffe5-438d-a080-6b96dbb8c582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon">
+      <UniqueIdentifier>{9b9ad8c0-6d90-430d-8e3d-a6b83b42da9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Taekwon\Taekwon.h">
+      <Filter>Taekwon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Taekwon\TaekwonComm.h">
+      <Filter>Taekwon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Common\ImageManagement.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Common\Point.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Common\Bitmap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Common\Global.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\ImagePixel.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\Labeling.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\Number.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\uart_api.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\Config.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\Draw.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\ImageConvert.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\Memory.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\LUT.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\Line.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Amazon\amazon2_timer_api.h">
+      <Filter>Amazon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Taekwon\Taekwon.c">
+      <Filter>Taekwon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Taekwon\TaekwonComm.c">
+      <Filter>Taekwon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Common\Bitmap.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Common\ImageManagement.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\ImagePixel.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\Labeling.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\Number.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\uart_api.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\Draw.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\ImageConvert.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\Memory.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\LUT.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\Line.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Amazon\amazon2_timer_api.c">
+      <Filter>Amazon</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

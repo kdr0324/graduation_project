@@ -1,0 +1,1 @@
+"RemoteManCLI.exe" -target usb -rfr /mnt/f0/image.tar image.tar -run 0 -q

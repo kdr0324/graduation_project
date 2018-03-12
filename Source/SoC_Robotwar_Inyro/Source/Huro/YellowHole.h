@@ -1,0 +1,49 @@
+#ifndef _YELLOW_HOLE_H_
+#define _YELLOW_HOLE_H_
+
+#include "../Amazon/Config.h"
+
+#define YELLOW_HOLE_UP_END								0x00000000
+#define YELLOW_HOLE_UP_RIGHT_MOTION						0x00000001
+#define YELLOW_HOLE_UP_HALF_WALK						0x00000002
+#define YELLOW_HOLE_UP_WALK								0x00000004
+#define YELLOW_HOLE_UP_RUN_10							0x00000008
+#define YELLOW_HOLE_UP_RUN_20							0x00000010
+#define YELLOW_HOLE_UP_SIDE_30							0x00000020
+#define YELLOW_HOLE_UP_SIDE_50							0x00000040
+#define YELLOW_HOLE_UP_TURN_10							0x00000080
+
+
+
+
+#define YELLOW_HOLE_ALIGN_END								0x00000000
+#define YELLOW_HOLE_ALIGN_RIGHT_MOTION						0x00000001
+#define YELLOW_HOLE_ALIGN_QUARTER_WALK							0x00000002
+#define YELLOW_HOLE_ALIGN_HALF_WALK							0x00000004
+#define YELLOW_HOLE_ALIGN_WALK								0x00000008
+#define YELLOW_HOLE_ALIGN_RUN_10							0x00000010
+#define YELLOW_HOLE_ALIGN_RUN_20							0x00000020
+#define YELLOW_HOLE_ALIGN_SIDE_10							0x00000040
+#define YELLOW_HOLE_ALIGN_SIDE_30							0x00000080
+#define YELLOW_HOLE_ALIGN_TURN_10							0x00000100
+
+#define YELLOW_HOLE_DOWN_END					0x00000000
+#define YELLOW_HOLE_DOWN_LEFT_MOTION			0x00000001
+#define YELLOW_HOLE_DOWN_TURN_15				0x00000002
+#define YELLOW_HOLE_DOWN_TURN_5					0x00000004
+#define YELLOW_HOLE_DOWN_DOUBLE_HALF_WALK		0x00000008
+#define YELLOW_HOLE_DOWN_SINGLE_HALF_WALK		0x00000010
+#define YELLOW_HOLE_DOWN_HALF_HALF_WALK			0x00000020
+#define YELLOW_HOLE_DOWN_STAIR_BELL_BELL		0x00000040
+#define YELLOW_HOLE_DOWN_MISSION_END_FLAG		0x00000080
+#define YELLOW_HOLE_DOWN_BACK_LITTLE_WALK		0x00000081 // 얘는 비트가 2개이므로 == 연산으로 비교
+
+int YellowHoleUp(FILE *fp, const char *name);
+int YellowHoleUp2(FILE *fp, const char *name);
+int YellowHoleAlign(FILE *fp, const char *name);
+//int YellowHoleAlign2(FILE *fp, const char *name);
+int YellowHoleDown(FILE *fp, const char *name);
+int YellowHoleDown2(FILE *fp, const char *name);
+
+
+#endif // _YELLOW_HOLE_H_

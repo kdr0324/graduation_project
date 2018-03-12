@@ -1,0 +1,36 @@
+﻿  TaekwonComm.c
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwoncomm.c(55): warning C4101: 'recv_data': unreferenced local variable
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwoncomm.c(56): warning C4101: 'checksum': unreferenced local variable
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwoncomm.c(84): warning C4101: 'i': unreferenced local variable
+  Taekwon.c
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwon.c(65): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwon.c(66): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwon.c(68): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwon.c(163): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwon.c(243): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwon.c(257): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwon.c(234): warning C4101: 'i': unreferenced local variable
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwon.c(315): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwon.c(327): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwon.c(338): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwon.c(413): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwon.c(429): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwon.c(478): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwon.c(494): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\cygwin\home\kimdaeryong\svn\source\soc_robotwar_inyro\source\taekwon\taekwon.c(506): warning C4101: 'ret': unreferenced local variable
+  Generating Code...
+  Taekwon.vcxproj -> C:\cygwin\home\KimDaeRyong\SVN\Source\SoC_Robotwar_Inyro\Debug\Taekwon.exe
+  Taekwon.vcxproj -> C:\cygwin\home\KimDaeRyong\SVN\Source\SoC_Robotwar_Inyro\Debug\Taekwon.pdb (Full PDB)
